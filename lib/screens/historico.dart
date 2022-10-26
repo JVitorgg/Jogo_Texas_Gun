@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:tiroteio/components/detalhes.dart';
 
@@ -38,8 +39,8 @@ class _HistoricoState extends State<Historico> {
           const SizedBox(
             height: 30,
           ),
-          const Text(
-            'RESULTADOS RECENTES',
+          Text(
+            'resultados_recentes'.tr(),
             style: TextStyle(
                 fontSize: 30, fontWeight: FontWeight.bold, color: Colors.white),
           ),
@@ -63,9 +64,9 @@ class _HistoricoState extends State<Historico> {
                           resultados[index], turnoss[index], datas[index]);
                     },
                   )
-                : const Center(
+                : Center(
                     child: Text(
-                      'Você ainda não jogou partidas',
+                      'resultados_vazios'.tr(),
                       style:
                           TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
                     ),

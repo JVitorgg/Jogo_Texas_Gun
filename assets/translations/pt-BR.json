@@ -33,5 +33,7 @@
     "opcoes": "OPÇÕES",
     "escolha_idioma": "ESCOLHA O IDIOMA",
     "sons": "SONS NO JOGO",
-    "resultado": "RESULTADOS"
+    "resultado": "RESULTADOS",
+    "resultados_recentes": "RESULTADOS RECENTES",
+    "resultados_vazios": "Você ainda não jogou partidas"
 }

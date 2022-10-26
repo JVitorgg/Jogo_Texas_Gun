@@ -33,5 +33,7 @@
     "opcoes": "OPTIONS",
     "escolha_idioma": "CHOOSE LANGUAGE",
     "sons": "SOUNDS IN THE GAME",
-    "resultado": "RESULTS"
+    "resultado": "RESULTS",
+    "resultados_recentes": "RECENT RESULTS",
+    "resultados_vazios": "You haven't played matches yet"
 }
